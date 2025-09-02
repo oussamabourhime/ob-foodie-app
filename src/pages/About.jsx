@@ -44,7 +44,7 @@ function About() {
               </a>
             </li>
             <li>
-              <a href="/about" className="hover:text-amber-400">
+              <a href="/about" className="text-amber-400 hover:text-amber-300">
                 About
               </a>
             </li>
@@ -102,7 +102,7 @@ function About() {
             <a
               href="/about"
               onClick={() => setMenuOpen(false)}
-              className="font-600 text-xl hover:text-amber-400"
+              className="font-600 text-xl text-amber-400 hover:text-amber-300"
             >
               About
             </a>

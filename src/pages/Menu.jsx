@@ -480,7 +480,7 @@ const Menu = () => {
               </a>
             </li>
             <li>
-              <a href="/menu" className="hover:text-amber-400">
+              <a href="/menu" className=" text-amber-400 hover:text-amber-300">
                 Menu
               </a>
             </li>
@@ -542,7 +542,7 @@ const Menu = () => {
             <a
               href="/menu"
               onClick={() => setMenuOpen(false)}
-              className="font-600 text-xl hover:text-amber-400"
+              className="font-600 text-xl text-amber-400 hover:text-amber-300"
             >
               Menu
             </a>
@@ -597,7 +597,7 @@ const Menu = () => {
               <img
                 src={cuisineFlags[cuisine]}
                 alt={`${cuisine} flag`}
-                className="w-auto h-6 rounded-full transition-transform duration-200 ease-in-out transform hover:scale-110"
+                className="w-10 h-auto rounded-full transition-transform duration-200 ease-in-out transform hover:scale-110"
               />
               {cuisine}
             </button>

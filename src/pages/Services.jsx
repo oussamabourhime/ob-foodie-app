@@ -62,7 +62,7 @@ function Services() {
               </a>
             </li>
             <li>
-              <a href="/services" className="hover:text-amber-400">
+              <a href="/services" className="text-amber-400 hover:text-amber-300">
                 Services
               </a>
             </li>
@@ -122,7 +122,7 @@ function Services() {
             <a
               href="/services"
               onClick={() => setMenuOpen(false)}
-              className="font-600 text-xl hover:text-amber-400"
+              className="font-600 text-xl text-amber-400 hover:text-amber-300"
             >
               Services
             </a>

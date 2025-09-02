@@ -53,7 +53,7 @@ function Home() {
         {/* Desktop Nav */}
         <ul className="hidden md:flex gap-6 font-600 text-m">
           <li>
-            <a href="/home" className="hover:text-amber-400">
+            <a href="/home" className=" text-amber-400 hover:text-amber-300">
               Home
             </a>
           </li>
@@ -107,7 +107,7 @@ function Home() {
           <a
             href="/"
             onClick={() => setMenuOpen(false)}
-            className="font-600 text-xl hover:text-amber-400"
+            className="font-600 text-xl  text-amber-400 hover:text-amber-300"
           >
             Home
           </a>

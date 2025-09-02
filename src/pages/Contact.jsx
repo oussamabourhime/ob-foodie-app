@@ -79,7 +79,7 @@ function Contact() {
               </a>
             </li>
             <li>
-              <a href="/contact" className="hover:text-amber-400">
+              <a href="/contact" className=" text-amber-400 hover:text-amber-300">
                 Contact
               </a>
             </li>
@@ -142,7 +142,7 @@ function Contact() {
             <a
               href="/contact"
               onClick={() => setMenuOpen(false)}
-              className="font-600 text-xl hover:text-amber-400"
+              className="font-600 text-xl  text-amber-400 hover:text-amber-300"
             >
               Contact
             </a>

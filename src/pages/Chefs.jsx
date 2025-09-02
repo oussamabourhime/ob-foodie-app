@@ -59,7 +59,7 @@ function Chefs() {
               </a>
             </li>
             <li>
-              <a href="/chefs" className="hover:text-amber-400">
+              <a href="/chefs" className=" text-amber-400 hover:text-amber-300">
                 Chefs
               </a>
             </li>
@@ -123,7 +123,7 @@ function Chefs() {
             <a
               href="/chefs"
               onClick={() => setMenuOpen(false)}
-              className="font-600 text-xl hover:text-amber-400"
+              className="font-600 text-xl  text-amber-400 hover:text-amber-300"
             >
               Chefs
             </a>
