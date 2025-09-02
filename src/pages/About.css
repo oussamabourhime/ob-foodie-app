@@ -1,41 +1,38 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
-@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
 
 * {
   font-family: "Poppins", sans-serif;
 }
 
-.mini-title{
- font-family: 'Pacifico', cursive;
+.mini-title {
+  font-family: "Pacifico", cursive;
   font-size: larger;
   letter-spacing: 3px;
 }
 
 .img {
-
   box-shadow: 0 0 7px orange;
   transition: all 0.3s ease;
 }
-
 
 .img:hover {
   transform: scale(1.05);
   box-shadow: 0 0 40px orange;
 }
 
-#about-section{
-  background-image: url('/wood-bg.jpg');
+#about-section {
+  background-image: url("/wood-bg.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-    
 }
 
 .text-content h3 {
   font-family: "Pacifico", cursive;
 }
 
-#about-text{
+#about-text {
   font-size: 15px;
   line-height: 1.6;
   word-spacing: 5px;

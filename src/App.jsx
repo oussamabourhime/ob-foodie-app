@@ -7,18 +7,16 @@ import Menu from "./pages/Menu.jsx";
 import Contact from "./pages/Contact.jsx";
 import Payment from "./pages/Payment.jsx";
 
-
-
 function App() {
   return (
     <Routes>
       <Route path="/" element={<Home />} />
-      <Route path="/about" element={<About />}/>
-     <Route path="/services" element={<Services />} />
-     <Route path="/chefs" element={<Chefs />}/>
-     <Route path="/menu" element={<Menu />} />
-     <Route path="/contact" element={<Contact />}/>
-     <Route path="/payment" element={<Payment />}/>
+      <Route path="/about" element={<About />} />
+      <Route path="/services" element={<Services />} />
+      <Route path="/chefs" element={<Chefs />} />
+      <Route path="/menu" element={<Menu />} />
+      <Route path="/contact" element={<Contact />} />
+      <Route path="/payment" element={<Payment />} />
     </Routes>
   );
 }

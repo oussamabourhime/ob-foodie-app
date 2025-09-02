@@ -1,5 +1,11 @@
 import { useState } from "react";
-import { FaCcVisa, FaCcMastercard, FaPaypal, FaUser, FaCreditCard } from "react-icons/fa";
+import {
+  FaCcVisa,
+  FaCcMastercard,
+  FaPaypal,
+  FaUser,
+  FaCreditCard,
+} from "react-icons/fa";
 import { MdDateRange, MdLock } from "react-icons/md";
 import "./Payment.css";
 
@@ -17,7 +23,9 @@ function Payment() {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    const isComplete = Object.values(formData).every((field) => field.trim() !== "");
+    const isComplete = Object.values(formData).every(
+      (field) => field.trim() !== ""
+    );
     if (!isComplete) {
       alert("Please complete all fields before submitting payment.");
       return;
@@ -42,7 +50,10 @@ function Payment() {
 
         {/* Card Number */}
         <div className="mb-4 relative">
-          <FaCreditCard className="absolute left-3 top-3 text-amber-400" size={20} />
+          <FaCreditCard
+            className="absolute left-3 top-3 text-amber-400"
+            size={20}
+          />
           <input
             type="text"
             name="cardNumber"
@@ -55,7 +66,10 @@ function Payment() {
 
         {/* Expiry Date */}
         <div className="mb-4 relative">
-          <MdDateRange className="absolute left-3 top-3 text-amber-400" size={20} />
+          <MdDateRange
+            className="absolute left-3 top-3 text-amber-400"
+            size={20}
+          />
           <input
             type="month"
             name="expiry"
